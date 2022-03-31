@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* HEADER: */
+header{
+    width:100%;
+    height:70px;
+    border-bottom:2px solid black;
+    display:flex;
+    justify-content:space-evenly;
+
+    padding: right 20px;
+    padding-left:0px;
+    padding-top:1%;
+    padding-bottom:1%;
+    top: 0%; 
+
+    overflow:hidden;
+    background-color: white;
+   position: fixed; 
+   z-index: 1;
+}
+
+header > img {
+    margin: right 5px;
+}
+
+header > nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+header > nav > a{
+    text-decoration:none;
+    color:black;
+    padding: 30px;
+    letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size:13pt;}
+   
+    /*LOGO:*/
+    .logo{
+       width: 250px;
+       height: 50px;
+    }
+
+
+/* HEADINGS: */
+h1, h3, h4, h5, h6{
+    color:rgb(0, 0, 0);
+    text-align: center;  
+}
+
+/*h2:*/
+h2{
+color: black;
+text-align: center;
+padding-left: 30%;
+}
+/*Tekst*/
+p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    text-align:start;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 35px;
+}
+
+/*Billede tekst*/
+.tekstbillede{
+display: block;
+margin-top: 40px;
+margin-bottom: 1%
+}
+
+.tekstbillede > div img{
+height: 350px;
+width: 350px;
+}
+
+/*tekstbilled*/
+.billedtekst{
+    height: 600px;
+    width: 600px;
+    padding: 100px;
+    padding-bottom: 0%;
+}
+
+/*Bottom billede*/
+.bottombillede{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30px;
+    height: 400;
+    width:85%;
+    padding-top: 100px;
+     
+}
+
+/*Streg*/
+    hr{
+        width: 300px;
+        margin:auto;
+        border-color:rgb(5, 5, 5);
+        height:1px;
+    }
+
+/*Store Billeder*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+    height: 800;
+    width: 85%;
+    
+}
+
+/* CARDS: */
+section.cards {
+    width:93%; 
+    display:flex;
+    justify-content:space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+
+}
+
+section.cards > div img{
+    width: 340px;
+    height: 350px;
+    padding-top:20px;
+    text-align:center;
+    
+}
+
+section.cards > div > h3{
+    font-size:16pt;
+}
+
+section.cards > div > h3, section.cards > div > h4{
+    color:black;
+}
+
+/*billeder ved siden af hinanden*/
+.artikel{
+    width:93%; 
+    display:flex;
+    justify-content:space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.artikel> div img{
+    width: 400px;
+    height: 350px;
+    padding-top:20px;
+    text-align:center;
+    padding: auto;
+    padding-left: 70px;
+}
+
+
+
+/*Fotter*/   
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fotter-container{
+    background-color: #eff1f3;
+    padding-bottom: 4rem;
+}
+
+.footer{
+width: 100%;
+height: 25vh;
+background-color: #eff1f3;
+color: #343e55;
+display: flex;
+justify-content:center;
+}
+
+.footer-heading{
+  display: flex;  
+  flex-direction: column;
+  margin:auto
+}
+
+.footer-heading h2 {
+    margin-bottom: 20px;
+}
+
+.footer-heading a {
+    color: #343e55;
+    text-decoration: none;
+    margin-bottom: 0,5rem;
+    text-align: center;
+}
+
+.footer-heading a:hover{
+    color:rgb(109, 109, 109); 
+    transition: 0,3s ease-out;
+}
+
